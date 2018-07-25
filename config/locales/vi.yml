@@ -1,0 +1,15 @@
+vi:
+  base_title: "Cửa hàng hoa tươi"
+  static_pages:
+    home:
+      title: "Trang Chủ"
+      h1_tag: "Đây là trang chủ"
+    product:
+      title: "Sản phẩm"
+      h1_tag: "Đây là trang sản phẩm"
+    about:
+      title: "Giới thiệu"
+      h1_tag: "Đây là trang giới thiệu"
+    contact:
+      title: "Liên hệ"
+      h1_tag: "Đây là trang liên hệ"
