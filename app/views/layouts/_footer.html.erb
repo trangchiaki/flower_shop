@@ -1,0 +1,107 @@
+<!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4">
+  <div class="box-html">
+    <div class="policy-content clearfix">
+      <div class="col-md-3  clearfix">
+        <div class="sale-policy-block">
+          <i class="fa fa-refresh"></i>
+          <span><%= t ".repay" %></span>
+        </div>
+      </div>
+      <div class="col-md-3 clearfix">
+        <div class="sale-policy-block">
+          <i class="fa fa-truck"></i>
+          <span><%= t ".ship" %></span>
+        </div>
+      </div>
+      <div class="col-md-3 clearfix">
+        <div class="sale-policy-block">
+          <i class="fa fa-life-saver"></i>
+          <span><%= t ".payment" %></span>
+        </div>
+      </div>
+      <div class="col-md-3 clearfix">
+        <div class="sale-policy-block">
+          <i class="fa fa-users"></i>
+          <span><%= t ".support" %></span>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+    <!-- Grid row -->
+    <div class="row">
+      <!-- Grid column -->
+      <div class="col-md-4 mx-auto">
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4"><%= t ".aboutus" %></h5>
+        <p>...</p>
+      </div>
+
+      <!-- Grid column -->
+      <div class="col-md-4 mx-auto">
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4"><%= t ".address" %></h5>
+        <ul class="list-unstyled">
+          <li>Km10,Nguyen Trai, Ha Dong, Ha Noi</li>
+          <li>Email:flowershop@gmail.com</li>
+          <li>Phone:0123456789</li>
+        </ul>
+      </div>
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4"><%= t ".policy" %></h5>
+        <ul class="list-unstyled">
+          <li>
+            <%= link_to t(".guarantee"), "#" %>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4"><%= t ".social" %></h5>
+        <ul class="list-unstyled">
+         <!-- Social buttons -->
+          <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+              <%= link_to "#", class: "btn-floating btn-fb mx-1" do %>
+                <i class="fa fa-facebook"></i>
+              <% end %>
+            </li>
+            <li class="list-inline-item">
+              <%= link_to "#", class: "btn-floating btn-fb mx-1" do %>
+                <i class="fa fa-twitter"></i>
+              <% end %>
+            </li>
+            <li class="list-inline-item">
+              <%= link_to "#", class: "btn-floating btn-fb mx-1" do %>
+                <i class="fa fa-google-plus"></i>
+              <% end %>
+            </li>
+          </ul>
+        <!-- Social buttons -->
+        </ul>
+      </div>
+    </div>
+    <!-- Grid row -->
+    <hr class="clearfix w-100 d-md-none">
+    <!-- Call to action -->
+    <ul class="list-unstyled list-inline text-center py-2">
+      <li class="list-inline-item">
+        <h5 class="mb-1"><%= t ".register" %></h5>
+      </li>
+      <li class="list-inline-item">
+        <%= link_to t(".signup"), "#", class: "btn btn-danger btn-rounded" %>
+      </li>
+    </ul>
+    <!-- Call to action -->
+    <hr class="clearfix w-100 d-md-none">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <%= link_to "Flowershop.com.vn", root_path %>
+    </div>
+    <!-- Copyright -->
+  </div>
+</footer>
+<!-- Footer -->

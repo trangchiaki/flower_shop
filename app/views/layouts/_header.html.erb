@@ -1,0 +1,95 @@
+<header>
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed"
+            data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <%=link_to( image_tag("logo.jpg", size: "60"),
+            root_path, class: "navbar-brand logo_img") %>
+          <p class="logo">Flower Shop</p>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><%= link_to t(".home"), root_path %>
+              <span class="sr-only">(current)</span>
+            </li>
+            <li><%= link_to t(".about"), about_path %></li>
+            <li class="dropdown">
+              <%= link_to "#", class: "dropdown-toggle",
+                data: {toggle: "dropdown"}, role: "button",
+                aria: {haspopup: "true", expanded: "false"} do %>
+                  <%= t(".product") %><b class="caret"></b>
+              <% end %>
+              <ul class="dropdown-menu">
+                <li><%= link_to "Something", product_path %></li>
+                <li role="separator" class="divider"></li>
+                <li><%= link_to "Something", product_path %></li>
+                <li role="separator" class="divider"></li>
+                <li><%= link_to "Something", product_path %></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to t(".contact"), contact_path %></li>
+            <li class="dropdown">
+              <%= link_to "#", class: "dropdown-toggle",
+                data: {toggle: "dropdown"}, role: "button",
+                aria: {haspopup: "true", expanded: "false"} do %>
+                  <%= t(".account") %><b class="caret"></b>
+              <% end %>
+              <ul class="dropdown-menu">
+                <li><%= link_to t(".account"), "#" %></li>
+                <li><%= link_to t(".setting"), "#" %></li>
+                <li role="separator" class="divider"></li>
+                <li><%= link_to t(".logout"), "#" %></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+  <!-- slideshow -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <%= image_tag("bn.jpg") %>
+        </div>
+        <div class="item">
+          <%= image_tag("bn1.jpg") %>
+        </div>
+        <div class="item">
+          <%= image_tag("bn2.jpg") %>
+        </div>
+      </div>
+      <!-- Left and right controls -->
+      <%= link_to "#myCarousel", class: "left carousel-control",
+        data: {slide: "next"} do %>
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only"><%= t ".previous" %></span>
+      <% end %>
+      <%= link_to "#myCarousel", class: "right carousel-control",
+        data: {slide: "next"} do %>
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only"><%= t ".next" %></span>
+      <% end %>
+    </div>
+  </div>
+</header>
