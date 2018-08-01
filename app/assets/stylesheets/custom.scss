@@ -1,0 +1,39 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import 'font-awesome';
+
+/* header */
+.logo {
+  margin-top: 70px;
+  size: 26px;
+  color: green;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.carousel-inner {
+  height: 320px;
+}
+
+/* footer */
+.page-footer {
+  .container {
+    background-color: #e2e2e2;
+  }
+  .box-html {
+    margin-bottom: 20px;
+    margin-left: 57px;
+    margin-right: 57px;
+    .policy-content {
+      .sale-policy-block {
+        margin-top: 20px;
+        margin-left: 20px;
+        background-color: #f46164;
+        padding: 20px;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+    }
+  }
+}
+

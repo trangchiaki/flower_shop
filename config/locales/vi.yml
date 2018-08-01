@@ -1,5 +1,7 @@
 vi:
   base_title: "Cửa hàng hoa tươi"
+  details: "Xem chi tiết"
+  addcart: "Thêm vào giỏ hàng"
   static_pages:
     home:
       title: "Trang Chủ"
@@ -13,3 +15,27 @@ vi:
     contact:
       title: "Liên hệ"
       h1_tag: "Đây là trang liên hệ"
+  layouts:
+    header:
+      home: "Trang Chủ"
+      about: "Giới thiệu"
+      product: "Sản phẩm"
+      contact: "Liên hệ"
+      search: "Tìm kiếm"
+      account: "Tài khoản"
+      setting: "Cài đặt"
+      logout: "Đăng xuất"
+      previous: "Trước"
+      next: "Sau"
+    footer:
+      aboutus: "Về chúng tôi"
+      address: "Địa chỉ"
+      policy: "Chính sách"
+      social: "Mạng xã hội"
+      guarantee: "Chính sách bảo hành"
+      register: "Đăng ký miễn phí"
+      signup: "Đăng ký!"
+      repay: "Hoàn trả trong 30 ngày"
+      ship: "Miễn phí vận chuyển"
+      payment: "Thanh toán linh hoạt"
+      support: "Hỗ trợ khách hàng"

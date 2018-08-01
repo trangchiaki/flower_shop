@@ -1,5 +1,7 @@
 en:
   base_title: "Flower Shop"
+  details: "Details"
+  addcart: "Add to cart"
   static_pages:
     home:
       title: "Home"
@@ -13,3 +15,27 @@ en:
     contact:
       title: "Contact"
       h1_tag: "This is contact page"
+  layouts:
+    header:
+      home: "Home"
+      about: "About"
+      product: "Product"
+      contact: "Contact"
+      search: "Search"
+      account: "Account"
+      setting: "Setting"
+      logout: "Log out"
+      previous: "Previous"
+      next: "Next"
+    footer:
+      aboutus: "About us"
+      address: "Address"
+      policy: "Policy"
+      social: "Social"
+      guarantee: "Guarantee Policy"
+      register: "Register for free"
+      signup: "Sign up!"
+      repay: "Repay for 30 days"
+      ship: "No shipping charge"
+      payment: "Flexible payment"
+      support: "Support customer"
