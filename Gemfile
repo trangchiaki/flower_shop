@@ -4,6 +4,7 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 ruby "2.5.1"
 
 gem "bcrypt", "3.1.12"
+gem "carrierwave", "1.2.2"
 gem "bootstrap-sass", "3.3.7"
 gem "coffee-rails", "~> 4.2"
 gem "config"

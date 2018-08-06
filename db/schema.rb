@@ -10,15 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_07_30_081313) do
+ActiveRecord::Schema.define(version: 2018_08_03_035751) do
 
-  create_table "bills", force: :cascade do |t|
+  create_table "bills", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.float "total_price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  create_table "cart_details", force: :cascade do |t|
+  create_table "cart_details", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.integer "quatity"
     t.float "price"
     t.float "discount"
@@ -26,13 +26,13 @@ ActiveRecord::Schema.define(version: 2018_07_30_081313) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "categories", force: :cascade do |t|
+  create_table "categories", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  create_table "flowers", force: :cascade do |t|
+  create_table "flowers", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
     t.integer "category_id"
     t.integer "supplier_id"
@@ -46,12 +46,12 @@ ActiveRecord::Schema.define(version: 2018_07_30_081313) do
     t.index ["supplier_id"], name: "index_flowers_on_supplier_id"
   end
 
-  create_table "orders", force: :cascade do |t|
+  create_table "orders", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  create_table "suppliers", force: :cascade do |t|
+  create_table "suppliers", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
     t.string "email"
     t.datetime "created_at", null: false

@@ -1,0 +1,7 @@
+<% provide :title, t(".title") %>
+
+<% @flower.each do |flower| %>
+   <%= link to  flower.name, flower_path(flower) %>
+<% end %>
+
+<%= link to  t(".add"), new_flower_path %>

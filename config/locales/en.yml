@@ -9,18 +9,14 @@ en:
     product:
       title: "Product"
       h1_tag: "This is product page"
-    about:
-      title: "About"
-      h1_tag: "This is about page"
-    contact:
-      title: "Contact"
-      h1_tag: "This is contact page"
+    add_flower:
+      title: "Add Flower"
+      h1_tag: "This is add flower page"
   layouts:
     header:
       home: "Home"
-      about: "About"
       product: "Product"
-      contact: "Contact"
+      add: "Add flower"
       search: "Search"
       account: "Account"
       setting: "Setting"
@@ -40,20 +36,27 @@ en:
       payment: "Flexible payment"
       support: "Support customer"
   flowers:
-    new:
-      title: "Add Flower"
-      h1: "Add Flower"
+    form:
       name: "Name:"
       description: "Description:"
       image: "Image:"
       price: "Price:"
-      discuont: "Discount:"
-      submit: "Create new flowers "
+      discount: "Discount:"
+      submit: "Save"
       flash: "Welcome to the Flower Shop!"
+    index:
+      title: "Index view"
+      add: "Add flower"
+    new:
+      title: "Add Flower"
+      h1: "Add Flower"
     show:
+      title: "Show flower"
       h1: "Information new flower"
-      name: "Name"
-      description: "Description"
-      image: "Image"
-      price: "Price"
-      discount: "Discount"
+      back: "Back"
+      edit: "Edit"
+      delete: "Delete"
+      confirm: "Are you sure?"
+    edit:
+      title: "Edit flower"
+      h1: "Edit flower"

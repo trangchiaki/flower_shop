@@ -9,18 +9,14 @@ vi:
     product:
       title: "Sản phẩm"
       h1_tag: "Đây là trang sản phẩm"
-    about:
-      title: "Giới thiệu"
-      h1_tag: "Đây là trang giới thiệu"
-    contact:
-      title: "Liên hệ"
-      h1_tag: "Đây là trang liên hệ"
+    add_flower:
+      title: "Thêm hoa"
+      h1_tag: "Đây là trang thêm sản phẩm"
   layouts:
     header:
       home: "Trang Chủ"
-      about: "Giới thiệu"
       product: "Sản phẩm"
-      contact: "Liên hệ"
+      add: "Thêm hoa"
       search: "Tìm kiếm"
       account: "Tài khoản"
       setting: "Cài đặt"
@@ -40,20 +36,27 @@ vi:
       payment: "Thanh toán linh hoạt"
       support: "Hỗ trợ khách hàng"
   flowers:
-    new:
-      title: "Thêm hoa mới"
-      h1: "Thêm hoa mới"
+    form:
       name: "Tên loài hoa:"
       description: "Mô tả:"
       image: "Hình ảnh:"
       price: "Giá:"
       discount: "Chiết khấu:"
-      submit: "Tạo hoa mới"
+      submit: "Lưu"
       flash: "Chào mừng bạn đến với Flower Shop"
+    index:
+      title: "Xem"
+      add: "Thêm hoa"
+    new:
+      title: "Thêm hoa mới"
+      h1: "Thêm hoa mới"
     show:
+      title: "Hoa"
       h1: "Thông tin hoa mới"
-      name: "Tên loài hoa"
-      description: "Mô tả"
-      image: "Hình ảnh"
-      price: "Giá"
-      discount: "Chiết khấu"
+      back: "Quay lại"
+      edit: "Chỉnh sửa"
+      delete: "Xóa"
+      confirm: "Bạn chắc chắn chưa ?"
+    edit:
+      title: "Chỉnh sửa hoa"
+      h1: "Chỉnh sửa hoa"
